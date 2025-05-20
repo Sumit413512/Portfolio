@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 30%;
+  background: #1f2a44;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.sidebar a {
+  color: #aad;
+}
+
+.main-content {
+  width: 70%;
+  background: #fff;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-content h2 {
+  border-bottom: 2px solid #1f2a44;
+  margin-bottom: 10px;
+  color: #1f2a44;
+}
+
+.main-content section {
+  margin-bottom: 20px;
+}
+
+.main-header {
+  background-color: #2c3e50;background-position: 0%;
+  color: white;
+  padding: 30px 0;
+  font-family: 'Arial Black', sans-serif;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-header h1 {
+  margin: 0 auto;
+  max-width: 1100px;  /* Same as your container width */
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 20px;
+}
+h4{
+    text-align: center;
+}
+
+
+
